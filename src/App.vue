@@ -14,7 +14,7 @@
           <td>Won Emmy</td>
           <td>Actions</td>
         </tr>
-        <tr v-for="(contact, index) in sortedContactList" :key="index">
+        <tr v-for="(contact, index) in sortContactList" :key="index">
           <td><img :src="contact.pictureUrl" alt="" /></td>
           <td>{{ contact.name }}</td>
           <td>{{ contact.popularity }}</td>
