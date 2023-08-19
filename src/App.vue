@@ -60,7 +60,7 @@ function addRandomContact() {
     sortContactList.value.push(nextRandomContact);
   }
 
-
+}
   let sortNameStatus = ref(true);
 function sortAlphabetically() {
   if (sortNameStatus) {
@@ -86,7 +86,6 @@ function sortByPopularity() {
 function deleteContact(index) {
   sortContactList.value.splice(index, 1);
 }
-
 </script>
 
 <style>
